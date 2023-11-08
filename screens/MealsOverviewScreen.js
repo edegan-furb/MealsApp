@@ -11,12 +11,17 @@ function MealsOverviewScreen({ route, navigation }) {
     return mealItem.categoryIds.indexOf(catId) >= 0;
   });
 
-  useLayoutEffect(() => {
-    const categoryTitle = CATEGORIES.find(
-      (category) => category.id === catId
-    ).title;
+  const categoryTitle = CATEGORIES.find(
+    (category) => category.id === catId
+  ).title;
 
+  const categoryColor = CATEGORIES.find(
+    (category) => category.id === catId
+  ).color;
+
+  useLayoutEffect(() => {
     navigation.setOptions({
+      headerStyle: { backgroundColor: categoryColor },
       title: categoryTitle,
     });
   }, [catId, navigation]);
@@ -25,11 +30,13 @@ function MealsOverviewScreen({ route, navigation }) {
     const item = itemData.item;
 
     const mealItemProps = {
+      id: item.id,
       title: item.title,
       imageUrl: item.imageUrl,
       affordability: item.affordability,
       complexity: item.complexity,
       duration: item.duration,
+      mealHeaderStyle: categoryColor,
     };
 
     return <MealItem {...mealItemProps} />;

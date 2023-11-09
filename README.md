@@ -1,7 +1,7 @@
 <div align="center">
   <h1>MealsApp</h1>
   <p>
-  React Native Navigation with React Navigation
+  React Native Navigation & App-wide State Management
   </p>
   <p>
   <a href="https://github.com/edegan-furb/MealsApp/graphs/contributors">

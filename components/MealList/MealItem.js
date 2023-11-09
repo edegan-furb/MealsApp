@@ -20,10 +20,21 @@ function MealItem({
 }) {
   const navigation = useNavigation();
 
+  function isEmptyObject(obj) {
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   function selectMealHanler() {
     navigation.navigate("MealDetail", {
       mealId: id,
-      mealHeaderStyle: mealHeaderStyle,
+      mealHeaderStyle: isEmptyObject(mealHeaderStyle)
+        ? "#9a3412"
+        : mealHeaderStyle,
     });
   }
 

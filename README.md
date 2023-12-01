@@ -70,7 +70,4 @@ $ npx expo start
    <a>
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453901.png" alt="Favorite" title="Favorite Screen" height="500" width="250">
   </a>
- <a>
-    <a height="500" width="250">
-  </a>
 </p>

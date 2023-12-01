@@ -62,7 +62,9 @@ $ npx expo start
   <a>
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453883.png" alt="MealDetails" title="Meal Details Screen" height="500" width="250">
   </a>
-  <a>
+</p>
+<p align="left">
+ <a>
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453898.png" alt="NavTabs" title="NavTabs" height="500" width="250">
   </a>
    <a>

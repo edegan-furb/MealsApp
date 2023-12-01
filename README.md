@@ -63,11 +63,14 @@ $ npx expo start
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453883.png" alt="MealDetails" title="Meal Details Screen" height="500" width="250">
   </a>
 </p>
-<p align="left">
+<p align="center">
  <a>
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453898.png" alt="NavTabs" title="NavTabs" height="500" width="250">
   </a>
    <a>
     <img src="https://github.com/edegan-furb/MealsApp/blob/master/assets/Screenshot_1701453901.png" alt="Favorite" title="Favorite Screen" height="500" width="250">
+  </a>
+ </a>
+   <a>
   </a>
 </p>

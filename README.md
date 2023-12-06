@@ -43,6 +43,11 @@ $ npx expo start
 > **Note**
 > If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
+## Download
+ - Android - Open this [link](https://expo.dev/accounts/edegan/projects/MealsApp/builds/01b89fcd-0816-4fcd-9869-fecf9edb06fa) on your Android devices to install the app
+ 
+ 
+
 ## Built with 
 
 - [React-Native](https://reactnative.dev/) -  Framework for making apps for Cross-platform mobile devices.
